@@ -1,0 +1,63 @@
+button {
+    padding: 10px 15px;
+ font-size: 10px;
+    margin: 10px;
+    border: none;
+    background-color:gray;
+    color: white;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+#myForm {
+    display: none; 
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#myForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#moviesTable {
+    display: block; 
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#moviesTable th, #moviesTable td {
+    padding: 12px;
+}
+
+
+
+#myForm {
+    display: none;
+}
+
+#moviesTable {
+    display: block;
+}
